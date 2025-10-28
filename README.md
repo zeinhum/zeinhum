@@ -1,3 +1,3 @@
-Hi, I’m Jameel Khan 👋
-
-Welcome to my GitHub profile! I’m a Full Stack Developer passionate about building scalable web applications, designing analytics systems, and solving real-world problems with code.
+<h2>Hi
+1 I am Jameel Khan</h2>
+<p>I am a software engineer, writer, and video-maker. I enjoy doing charit, and helping society grow.</p>
