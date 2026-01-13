@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi! I’m Jameel Khan</h1>
 
 <p align="center">
-  <b>Software Engineer | Writer | Video-Maker </b>
+  <b>Software Engineer | Writer </b>
 </p>
 
 <hr>
@@ -43,7 +43,7 @@ I actively engage in charitable work — teaching coding to students, organizing
   <li>💼 <a href="https://github.com/zeinhum">GitHub Profile</a></li>
   <li>📝 <a href="#"></a></li>
   <li>🎥 <a href="#"></a></li>
-  <li>📧 <a href="mailto:hello@example.com">hello@example.com</a></li>
+  <li>📧 <a href="mailto:jameelhumn@gmail.com">jameelhumn@gmail.com</a></li>
 </ul>
 
 <hr>
