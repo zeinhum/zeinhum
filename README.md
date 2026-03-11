@@ -1,54 +1,85 @@
-<h1 align="center">👋 Hi! I’m Jameel Khan</h1>
+# Hi, I'm Jameel Ahamad Khan 👋
 
-<p align="center">
-  <b>Software Engineer | Writer </b>
-</p>
+Software developer based in **Auckland, New Zealand** — MSc Software Engineering, BSc Physics.
 
-<hr>
+I build things that solve real problems under real constraints: offline-first systems for low-connectivity schools, AI-powered HR tools, voice-commanded hardware integrations, and data pipelines that replaced broken workflows.
 
-<h2>🧑‍💻 About Me</h2>
-<p>
-I’m a passionate software engineer who enjoys building clean, scalable applications and sharing knowledge through writing and video-making.
-Beyond tech, I’m dedicated to <b>charity work</b> and helping society grow through education and technology-driven initiatives.
-</p>
+---
 
-<h2>🎯 What I Do</h2>
-<ul>
-  <li><b>Software Engineering:</b> Building robust web applications, APIs, and tools.</li>
-  <li><b>Writing:</b> Writing books</li>
-  <li><b>Video-Making:</b> Producing entertaining, short films, and education videos.</li>
-  <li><b>Charity & Community:</b> Mentoring students and help needy people.</li>
-</ul>
+## 🛠️ Tech Stack
 
-<h2>My books are</h2>
-<ul>
-  <li>Transformation: how was god created: 2015</li>
-  <li>The witch who walked me home: 2025</li>
-</ul>
+| | |
+|---|---|
+| **Languages** | C#, Python, JavaScript (Vanilla) |
+| **Frameworks** | ASP.NET Core MVC, Django, FastAPI |
+| **ORM / DB** | Entity Framework Core, SQLite |
+| **AI / ML** | Sentence-BERT, OpenCV, OpenAI API, Edge-TTS, Custom Intent Models |
+| **Hardware** | Arduino, Servo Motor, Ultrasonic Sensor |
+| **Networking** | LAN Administration, Cisco Meraki |
+| **Concepts** | RBAC, Service Layer, Event Delegation, Lazy Loading, MVC, REST |
 
-<h2>📚 Featured Work</h2>
-<ul>
-  <li><b>School Result System:</b> A full-stack result and analytics management system built with ASP.NET Core MVC and SQLite.</li>
-  <li><b>Tech Writing:</b> Articles that simplify backend concepts, APIs, and data analytics.</li>
-  <li><b>Educational Videos:</b> Short, insightful videos to help developers learn and grow.</li>
-</ul>
+---
 
-<h2>💖 Charity & Community</h2>
-<p>
-I actively engage in charitable work — teaching coding to students, organizing community workshops, and collaborating with local organizations to improve education accessibility.
-</p>
+## 🚀 Projects
 
-<h2>🌐 Connect With Me</h2>
-<ul>
-  <li>💼 <a href="https://github.com/zeinhum">GitHub Profile</a></li>
-  <li>📝 <a href="#"></a></li>
-  <li>🎥 <a href="#"></a></li>
-  <li>📧 <a href="mailto:jameelhumn@gmail.com">jameelhumn@gmail.com</a></li>
-</ul>
+### 🏫 School Management System *(Deployed — Active Use)*
+> C# · ASP.NET Core MVC · Entity Framework Core · SQLite · Vanilla JS
 
-<hr>
+A full LAN-based, multi-user school management system built for low-connectivity environments — currently in active daily use at a school.
 
-<p align="center">
-  “Technology and compassion together can build a better world.”<br>
-  <b>— Jameel Khan</b>
-</p>
+- **RBAC at the routing layer** — Admin, Teacher, and Finance roles enforced via ASP.NET Areas before requests reach any controller
+- **Internal API Router** — a service-dispatch pattern that routes analytics requests (grade sheets, class reports, Teacher Performance Index, School Quality Rating) to dedicated service classes — Open/Closed Principle in practice
+- **Vanilla JS NavigationManager** — event delegation + on-demand module loading + explicit teardown, replicating React's component lifecycle with zero framework overhead, optimised for low-spec devices
+- Covers attendance, fee & salary records, academic management, and analytics
+
+📁 [View engineering samples →](./school-management-system-samples)
+
+---
+
+### 🤖 Smart HR Companion *(Capstone Project)*
+> Django · Python · OpenAI API · Edge-TTS · Custom Intent Recognition Model
+
+An AI-powered recruitment tool that takes the grunt work out of CV screening and interviewing.
+
+- Parses uploaded CVs and job descriptions, ranks candidate fit via OpenAI API
+- Conducts **voice-based interviews** with real-time text-to-speech (Edge-TTS)
+- Trained a custom **intent recognition model** to classify whether a user is answering, asking a question, or expressing doubt — driving adaptive interview flow in real time
+
+---
+
+### 🅿️ Smart Parking System *(Class Project)*
+> Python · Sentence-BERT · OpenCV · Arduino
+
+A voice-commanded, hardware-integrated parking system — built end-to-end, physically deployed.
+
+- **SBERT** model interprets voice commands and understands user intent
+- **OpenCV** reads number plates for access authorisation
+- **Arduino** controls a servo motor gate and reads ultrasonic sensors for real-time parking space monitoring
+
+---
+
+### 📊 Python Grade Processor *(Active Use)*
+> Python · FastAPI
+
+Replaced a broken Excel-based grading workflow for a school that had been struggling with it since 2020.
+
+- Ingests existing Excel grade sheets (preserving years of school data)
+- Generates formatted grade sheets, searchable by student symbol number
+- LAN-accessible, multi-user desktop application — in daily use
+
+---
+
+## 💼 Currently
+
+**IT Support Engineer (Contractor)** at Rex Technologies, on-site at Dentsu Auckland — supporting ~100 staff, managing device lifecycle, and responding to infrastructure incidents (Cisco Meraki switch management, port-level diagnosis, static network verification).
+
+---
+
+## 📬 Get in Touch
+
+- 📧 jameelhumn@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/jameel01khan/)
+
+---
+
+*Physics grad who got into software. Builds offline-first, builds for constraints, builds things that actually get used.*
