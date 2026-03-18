@@ -33,7 +33,7 @@ A full LAN-based, multi-user school management system built for low-connectivity
 - Covers attendance, fee & salary records, academic management, and analytics
 - **Roadmap:** migrating to multi-tenant cloud architecture with ML-driven features — student learning pattern analysis, subject-wise achievement tracking, and career guidance based on academic and extracurricular data
 
-📁 [View engineering samples →](./school-data-intelligence-samples)
+📁 [View engineering samples →](./School_Data_Intelligence)
 
 ---
 
