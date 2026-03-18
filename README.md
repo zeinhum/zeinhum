@@ -11,8 +11,8 @@ I build things that solve real problems under real constraints: offline-first sy
 | | |
 |---|---|
 | **Languages** | C#, Python, JavaScript (Vanilla) |
-| **Frameworks** | ASP.NET Core MVC, Django, FastAPI |
-| **ORM / DB** | Entity Framework Core, SQLite |
+| **Frameworks** | ASP.NET Core MVC, Django, Flask |
+| **ORM / DB** | Entity Framework Core, SQLite, PostgreSQL, MySQL |
 | **AI / ML** | Sentence-BERT, OpenCV, OpenAI API, Edge-TTS, Custom Intent Models |
 | **Hardware** | Arduino, Servo Motor, Ultrasonic Sensor |
 | **Networking** | LAN Administration, Cisco Meraki |
@@ -22,7 +22,7 @@ I build things that solve real problems under real constraints: offline-first sy
 
 ## 🚀 Projects
 
-### 🏫 School Management System *(Deployed — Active Use)*
+### 🏫 School Data Intelligence System *(Deployed — Active Use)*
 > C# · ASP.NET Core MVC · Entity Framework Core · SQLite · Vanilla JS
 
 A full LAN-based, multi-user school management system built for low-connectivity environments — currently in active daily use at a school.
@@ -31,8 +31,9 @@ A full LAN-based, multi-user school management system built for low-connectivity
 - **Internal API Router** — a service-dispatch pattern that routes analytics requests (grade sheets, class reports, Teacher Performance Index, School Quality Rating) to dedicated service classes — Open/Closed Principle in practice
 - **Vanilla JS NavigationManager** — event delegation + on-demand module loading + explicit teardown, replicating React's component lifecycle with zero framework overhead, optimised for low-spec devices
 - Covers attendance, fee & salary records, academic management, and analytics
+- **Roadmap:** migrating to multi-tenant cloud architecture with ML-driven features — student learning pattern analysis, subject-wise achievement tracking, and career guidance based on academic and extracurricular data
 
-📁 [View engineering samples →](./school-management-system-samples)
+📁 [View engineering samples →](./school-data-intelligence-samples)
 
 ---
 
@@ -59,7 +60,7 @@ A voice-commanded, hardware-integrated parking system — built end-to-end, phys
 ---
 
 ### 📊 Python Grade Processor *(Active Use)*
-> Python · FastAPI
+> Python · Flask
 
 Replaced a broken Excel-based grading workflow for a school that had been struggling with it since 2020.
 
@@ -71,7 +72,7 @@ Replaced a broken Excel-based grading workflow for a school that had been strugg
 
 ## 💼 Currently
 
-**IT Support Engineer (Contractor)** at Rex Technologies, on-site at Dentsu Auckland — supporting ~100 staff, managing device lifecycle, and responding to infrastructure incidents (Cisco Meraki switch management, port-level diagnosis, static network verification).
+**IT Support Engineer (Contractor)** at Rex Technologies, on-site at Dentsu Auckland — supporting ~100 staff, managing device lifecycle, and responding to infrastructure incidents (Cisco Meraki switch management, port-level diagnosis, stable network verification).
 
 ---
 
